@@ -1,0 +1,111 @@
+:root{
+    --Fi:#002D72;
+    --Se:#FFFFFF;
+    --T:#F4F4F4;
+    --F:#7D7D7D;
+    --FV:#4F86F7;
+    --S:#FFA500;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--se);
+    color: var(--Fi);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    color: var(--Fi);
+    margin-bottom: 0px;
+}
+
+p {
+    color: var(--Fi);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bu {
+    background-color: var(--S);
+    color: var(--Se);
+    display: inline;
+    margin: 1px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.bu a {
+    text-decoration: none;
+    color: var(--Se);
+}
+
+.f-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.ic {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+li {
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+li span {
+    font-weight: bold;
+}
+
+center .Make {
+    display: inline;
+    padding: 10px;
+    background-color: var(--Fi);
+    color: var(--Se);
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.fm form .i img {
+    width: 70px;
+    height: 70px;
+}
+.fm {
+    height: 500px;
+    width: 250px;
+    box-shadow:0px 6px 15px 3px gray;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+.fm form .i img{
+    margin-top: 20px;
+}
+label {
+    color: var(--Fi);
+    display: block;
+    font-size: 20px;
+}
+input {
+    display: block;
+    margin: 20px;
+}
+
+.su {
+    border: none;
+    border-radius: 10px;
+    color: var(--Se);
+    background-color: var(--Fi);
+    width: 50px;
+    height:30px
+}
+
+.web-dev {
+    font-size: 15px;
+    font-weight: bold;
+}
